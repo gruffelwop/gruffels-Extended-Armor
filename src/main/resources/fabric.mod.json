@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gea",
+  "version": "${version}",
+
+  "name": "gruffel's Extended Armor",
+  "description": "Adds wooden, emerald, lapis, quartz and copper armor to Minecraft",
+  "authors": [
+    "gruffelwop"
+  ],
+  "contact": {
+    "homepage": "https://gruffelwop.de/",
+    "sources": "https://github.com/gruffelwop/whatever"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gruffelwop.gea.geaMod"
+    ]
+  },
+  "mixins": [
+    "gea.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
