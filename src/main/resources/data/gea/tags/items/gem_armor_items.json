@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "gea:emerald_helmet",
+    "gea:emerald_chestplate",
+    "gea:emerald_leggings",
+    "gea:emerald_boots",
+    "gea:lapis_helmet",
+    "gea:lapis_chestplate",
+    "gea:lapis_leggings",
+    "gea:lapis_boots"
+  ]
+}

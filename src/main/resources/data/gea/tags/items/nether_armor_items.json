@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "gea:crimson_planks_helmet",
+    "gea:crimson_planks_chestplate",
+    "gea:crimson_planks_leggings",
+    "gea:crimson_planks_boots",
+    "gea:crimson_log_helmet",
+    "gea:crimson_log_chestplate",
+    "gea:crimson_log_leggings",
+    "gea:crimson_log_boots",
+    "gea:warped_planks_helmet",
+    "gea:warped_planks_chestplate",
+    "gea:warped_planks_leggings",
+    "gea:warped_planks_boots",
+    "gea:warped_log_helmet",
+    "gea:warped_log_chestplate",
+    "gea:warped_log_leggings",
+    "gea:warped_log_boots",
+    "gea:quartz_helmet",
+    "gea:quartz_chestplate",
+    "gea:quartz_leggings",
+    "gea:quartz_boots"
+  ]
+}

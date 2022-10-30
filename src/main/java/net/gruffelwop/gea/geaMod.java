@@ -2,6 +2,7 @@ package net.gruffelwop.gea;
 
 import net.fabricmc.api.ModInitializer;
 import net.gruffelwop.gea.item.ModItems;
+import net.gruffelwop.gea.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,8 @@ public class geaMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+
+		ModRegistries.registerModStuffs();
 
 	}
 }

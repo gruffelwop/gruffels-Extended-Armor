@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "gea:stone_helmet",
+    "gea:stone_chestplate",
+    "gea:stone_leggings",
+    "gea:stone_boots",
+    "gea:cobblestone_helmet",
+    "gea:cobblestone_chestplate",
+    "gea:cobblestone_leggings",
+    "gea:cobblestone_boots",
+    "gea:cobblestone_helmet",
+    "gea:cobblestone_chestplate",
+    "gea:cobblestone_leggings",
+    "gea:cobblestone_boots",
+    "gea:quartz_helmet",
+    "gea:quartz_chestplate",
+    "gea:quartz_leggings",
+    "gea:quartz_boots"
+  ]
+}

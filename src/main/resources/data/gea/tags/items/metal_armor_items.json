@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gea:copper_helmet",
+    "gea:copper_chestplate",
+    "gea:copper_leggings",
+    "gea:copper_boots"
+  ]
+}
