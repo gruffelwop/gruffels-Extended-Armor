@@ -29,7 +29,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     CRIMSON_PLANKS("crimson_planks", 3, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.CRIMSON_PLANKS);
     }),
-    CRIMSON_LOG("crimson_log", 3, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    CRIMSON_STEM("crimson_stem", 3, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.CRIMSON_STEM);
     }),
 
