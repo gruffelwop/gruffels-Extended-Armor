@@ -94,7 +94,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
 
 
-    LAPIS("lapis", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+    LAPIS_LAZULI("lapis_lazuli", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.LAPIS_LAZULI);
     }),
 

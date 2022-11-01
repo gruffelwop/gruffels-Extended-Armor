@@ -101,10 +101,10 @@ public class ModItems {
     public static final Item QUARTZ_CHESTPLATE = registerItem("quartz_chestplate", new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item QUARTZ_LEGGINGS = registerItem("quartz_leggings", new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item QUARTZ_BOOTS = registerItem("quartz_boots", new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item LAPIS_HELMET = registerItem("lapis_helmet", new ArmorItem(ModArmorMaterials.LAPIS, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item LAPIS_CHESTPLATE = registerItem("lapis_chestplate", new ArmorItem(ModArmorMaterials.LAPIS, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item LAPIS_LEGGINGS = registerItem("lapis_leggings", new ArmorItem(ModArmorMaterials.LAPIS, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item LAPIS_BOOTS = registerItem("lapis_boots", new ArmorItem(ModArmorMaterials.LAPIS, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item LAPIS_LAZULI_HELMET = registerItem("lapis_lazuli_helmet", new ArmorItem(ModArmorMaterials.LAPIS_LAZULI, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item LAPIS_LAZULI_CHESTPLATE = registerItem("lapis_lazuli_chestplate", new ArmorItem(ModArmorMaterials.LAPIS_LAZULI, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item LAPIS_LAZULI_LEGGINGS = registerItem("lapis_lazuli_leggings", new ArmorItem(ModArmorMaterials.LAPIS_LAZULI, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item LAPIS_LAZULI_BOOTS = registerItem("lapis_lazuli_boots", new ArmorItem(ModArmorMaterials.LAPIS_LAZULI, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet", new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate", new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings", new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
