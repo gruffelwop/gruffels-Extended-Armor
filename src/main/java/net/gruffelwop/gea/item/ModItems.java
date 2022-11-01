@@ -78,10 +78,10 @@ public class ModItems {
     public static final Item WARPED_PLANKS_CHESTPLATE = registerItem("warped_planks_chestplate", new ArmorItem(ModArmorMaterials.WARPED_PLANKS, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item WARPED_PLANKS_LEGGINGS = registerItem("warped_planks_leggings", new ArmorItem(ModArmorMaterials.WARPED_PLANKS, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
     public static final Item WARPED_PLANKS_BOOTS = registerItem("warped_planks_boots", new ArmorItem(ModArmorMaterials.WARPED_PLANKS, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item WARPED_LOG_HELMET = registerItem("warped_log_helmet", new ArmorItem(ModArmorMaterials.WARPED_LOG, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item WARPED_LOG_CHESTPLATE = registerItem("warped_log_chestplate", new ArmorItem(ModArmorMaterials.WARPED_LOG, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item WARPED_LOG_LEGGINGS = registerItem("warped_log_leggings", new ArmorItem(ModArmorMaterials.WARPED_LOG, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
-    public static final Item WARPED_LOG_BOOTS = registerItem("warped_log_boots", new ArmorItem(ModArmorMaterials.WARPED_LOG, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item WARPED_STEM_HELMET = registerItem("warped_stem_helmet", new ArmorItem(ModArmorMaterials.WARPED_STEM, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item WARPED_STEM_CHESTPLATE = registerItem("warped_stem_chestplate", new ArmorItem(ModArmorMaterials.WARPED_STEM, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item WARPED_STEM_LEGGINGS = registerItem("warped_stem_leggings", new ArmorItem(ModArmorMaterials.WARPED_STEM, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
+    public static final Item WARPED_STEM_BOOTS = registerItem("warped_stem_boots", new ArmorItem(ModArmorMaterials.WARPED_STEM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroups.CREATIVE_TAB)));
 
 
 

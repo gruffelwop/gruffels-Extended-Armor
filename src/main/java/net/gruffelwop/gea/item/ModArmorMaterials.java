@@ -71,15 +71,15 @@ public enum ModArmorMaterials implements ArmorMaterial {
     WARPED_PLANKS("warped_planks", 3, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.WARPED_PLANKS); // create a material for every type of wood? Because of the repair ingredient
     }),
-    WARPED_LOG("warped_log", 3, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    WARPED_STEM("warped_stem", 3, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.WARPED_STEM);
     }),
 
 
-    STONE("stone", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    STONE("stone", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.STONE);
     }),
-    COBBLESTONE("cobblestone", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    COBBLESTONE("cobblestone", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.COBBLESTONE);
     }),
 
@@ -89,17 +89,17 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
 
 
-    QUARTZ("quartz", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
+    QUARTZ("quartz", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.QUARTZ);
     }),
 
 
-    LAPIS("lapis", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+    LAPIS("lapis", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.LAPIS_LAZULI);
     }),
 
 
-    EMERALD("emerald", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
+    EMERALD("emerald", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(Items.EMERALD);
     });
 
